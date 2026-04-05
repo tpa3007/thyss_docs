@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "THYSS",
+  "logo": {
+    "dark": "/logo/logo-dark.svg",
+    "light": "/logo/logo-light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#18181B",
+    "light": "#a3e635",
+    "dark": "#18181B",
+    "background": {
+      "dark": "#09090B"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "Дашборд",
+    "url": "https://dashboard.thyss.xyz"
+  },
+  "topbarLinks": [
+    {
+      "name": "Поддержка",
+      "url": "https://t.me/thyss_support"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Начало работы",
+      "pages": ["introduction", "quickstart"]
+    },
+    {
+      "group": "Интеграции",
+      "pages": ["integrations/tilda"]
+    },
+    {
+      "group": "Справка",
+      "pages": ["troubleshooting"]
+    }
+  ],
+  "footerSocials": {
+    "telegram": "https://t.me/thyss_support"
+  }
+}
